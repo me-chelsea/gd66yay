@@ -1,27 +1,33 @@
 img {
     max-width: 75%;}
 header {
-    font-size: xx-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-variant: small-caps;
+    margin: auto;
     color:turquoise;
     text-align: center;
 }
 main {
     max-width:400px;
     margin:auto;
-    padding: 20px;
+    padding: 40px ;
     text-align: center;
 }
 
 
 @media(min-width:768px){
-    header {background-color:purple;}
+    header {background-color:purple;
+    max-width: 580px;}
     main {max-width:500px;
     background-color:rgb(220, 245, 244);
     color: navy;
 }
 }
 @media(min-width:1023px){
-    header {background-color:peru;}
+    header {background-color:peru;
+    max-width:780px;}
     main {max-width:700px;
         background-color:beige;
         color:fuchsia}
